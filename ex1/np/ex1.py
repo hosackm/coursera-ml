@@ -46,7 +46,7 @@ def gradient_descent(X, y, theta, alpha, n):
     J_hist = list()
 
     for i in xrange(n):
-        #h(x) equation
+        #Hypothesis
         H = X.dot(theta)
         #temp array for updating theta
         temp = np.zeros((theta.shape[0], 1))
