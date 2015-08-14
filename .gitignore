@@ -1,2 +1,5 @@
 *.mat
 token.mat
+venv
+
+*.pyc

@@ -5,7 +5,7 @@ function J = computeCost(X, y, theta)
 
 % Initialize some useful values
 m = length(y); % number of training examples
-H = X * theta; % H for all X rows
+H = X * theta; % Hypothesis for all X rows
 J = sum((H - y).^2)/ (2*m); % compute cost function
 
 end
