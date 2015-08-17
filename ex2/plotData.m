@@ -7,8 +7,8 @@ figure; hold on;
 pos = find(y == 1);
 neg = find(y == 0);
 
-plot(X(pos, 1), X(pos, 2), '+black');
-plot(X(neg, 1), X(neg, 2), 'o', 'MarkerFaceColor', 'y');
+scatter(X(pos, 1), X(pos, 2), 'black', '+');
+scatter(X(neg, 1), X(neg, 2), 'yellow', 'o');
 hold off;
 
 end
